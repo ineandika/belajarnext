@@ -1,5 +1,12 @@
-const about = () => {
-    return<div>About</div>
-}
+import Navbar from "./Components/Navbar"
 
-export default about;
+const about = () => {
+  return (
+    <>
+      <Navbar />
+      <h1>Ini Halaman About</h1>
+    </>
+  );
+};
+
+export default about;

@@ -1,5 +1,12 @@
-const profil = () => {
-    return<div>Profil</div>
-}
+import Navbar from "./Components/Navbar"
 
-export default profil;
+const profil = () => {
+  return (
+    <>
+      <Navbar />
+      <h1>Ini Halaman Profil</h1>
+    </>
+  );
+};
+
+export default profil;
